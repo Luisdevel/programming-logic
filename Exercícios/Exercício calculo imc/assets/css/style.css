@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+h1 {
+  text-align: center;
+} 
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.imc-table {
+  display: block;
+  text-align: center;
+}
+
+form input, form label, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+form button[type="submit"] {
+  border: 0;
+  border-radius: 2px;
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+
+form button[type="submit"]:hover {
+  background: var(--primary-color-darker);
+}
+
+.paragrafo-resultado {
+  padding: 12px 20px;
+  background-color: #008B8B;
+  width: 100%;
+  text-align: center;
+  border: 0;
+  border-radius: 2px;
+  border: 0;
+  border-radius: 2px;
+}
+
+.bad {
+  padding: 12px 20px;
+  background-color: #CD2626;
+  width: 100%;
+  text-align: center;
+  border: 0;
+  border-radius: 2px;
+}
